@@ -1,0 +1,266 @@
+@charset "utf-8";
+
+html {
+  font-size: 62.5%; /**10px**/
+}
+
+header {
+  color: white;
+  background: url(LPcafe/bg.jpg)no-repeat top/cover;
+}
+
+
+
+nav {
+  padding: 10px 20px 0 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+nav ul li {
+  padding: 0 20px;
+  font-weight: bold;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+}
+
+ul li a:hover {
+  color: #543f32;
+}
+
+
+
+
+.header-in {
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-in h1 {
+  font-size: 7rem;
+  margin: 0;
+  text-shadow: 0 3px black;
+}
+
+.header-in p {
+  font-size: 2rem;
+  text-shadow: 0 3px black;
+}
+
+
+
+.cafe  {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.cafe-2  {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+
+#concept .left {
+  width: 50%;
+  height: 570px;
+  padding: 90px 40px 90px 40px;
+}
+
+
+#concept img{
+  width: 50%;
+  height: 570px;
+}
+
+#concept h2 ,
+#MENU h2 ,
+#BLOG h2,
+#contact h2  {
+  font-size: 5.5rem;
+  color: #543f32;
+}
+
+#concept h3 ,
+#MENU h3 ,
+#BLOG h3 ,
+#contact h3 {
+  width: 40%;
+  font-size: 3rem;
+  border-bottom: solid 2px black;
+  color: #543f32;
+}
+
+#concept p {
+  font-size: 1.7rem;
+  line-height: 2;
+  font-weight: bold;
+}
+
+#concept p span {
+  color:tan;
+}
+
+#concept .cafe-2 h3{
+  width: 15%;
+}
+
+
+
+
+#BLOG {
+  background: url(LPcafe/wood.jpg)no-repeat top/cover;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.blog ,
+#contact h2 {
+  padding: 50px;
+}
+
+#BLOG .blog h2,
+#BLOG .blog h3{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.box-2 {
+  background: white;
+  width: 690px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.box-2 img {
+  width: 100%;
+}
+
+.box-2 h4 {
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.box-2 p {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+
+
+#contact {
+  text-align: center;
+  padding: 50px 0;
+  font-family: normal;
+}
+
+#contact .kohi h2,
+#contact .kohi h3 {
+  text-align: center;
+  margin: auto;
+}
+
+.semina {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.semina .left-1 ,
+.semina .rait-1 {
+  width: 30%;
+  padding: 0 50px;
+  text-align: center;
+}
+
+.semina .left-1 em {
+  color: red;
+  font-size: 1.2rem;
+  font-family: normal;
+}
+
+.semina dt {
+  font-size: 1.6rem;
+  border-bottom: solid 1px black;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.semina dd {
+  margin-bottom: 50px;
+}
+
+.semina .left-1 input[type="text"] {
+  font-size: 1.7rem;
+  padding: 14px 0 14px 10px;
+  border: solid 1px #f2e9e4;
+  width:100%;
+}
+
+.semina select {
+  font-size: 1.7rem;
+  width: 100%;
+  height: 55px;
+  border: solid 1px #f2e9e4;
+  background-color: white;
+}
+
+.semina textarea {
+  width: 100%;
+  border: solid 1px #f2e9e4;
+}
+
+#contact input[type="submit"] {
+  width: 300px;
+  background: #800000;
+  color: white;
+  font-size: 2.5rem;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+
+
+
+footer {
+  background: #24140e;
+  padding: 30px 0 ;
+  color: white;
+}
+
+footer h3 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1.5rem;
+  text-align: center;
+}
